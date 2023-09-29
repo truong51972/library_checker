@@ -1,0 +1,1 @@
+Nếu đây là lần đầu bạn chạy thì nên chạy file setup trước!

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>733</width>
+    <height>483</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Quản lý thư viện</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>741</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Quản Lý Thư Viện</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_5">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>70</y>
+      <width>231</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_5">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_3"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Nhập Id Sách:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="i_bookId">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="b_findBook">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Tìm kiếm</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QLabel" name="label_6">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Thông Tin Sách:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextBrowser" name="o_bookInfo">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QPushButton" name="b_borrow">
+           <property name="text">
+            <string>Mượn sách</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="b_return">
+           <property name="text">
+            <string>Trả sách</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_6">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>70</y>
+      <width>421</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_6">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Nhập Id Khách hàng:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="i_user">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="b_findUser">
+         <property name="text">
+          <string>Tìm kiếm</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QLabel" name="label_4">
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Thông tin khách hàng:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTextBrowser" name="o_userInfo">
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_5">
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Sách đã mượn:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTextBrowser" name="o_bookBorrowed">
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>733</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="userMenu">
+    <property name="title">
+     <string>Khách hàng</string>
+    </property>
+    <addaction name="newUser"/>
+    <addaction name="deleteUser"/>
+   </widget>
+   <widget class="QMenu" name="bookMenu">
+    <property name="title">
+     <string>Sách</string>
+    </property>
+    <addaction name="newBook"/>
+    <addaction name="deleteBook"/>
+   </widget>
+   <widget class="QMenu" name="showMenu">
+    <property name="title">
+     <string>Hiển thị</string>
+    </property>
+    <addaction name="show100"/>
+    <addaction name="show200"/>
+   </widget>
+   <addaction name="userMenu"/>
+   <addaction name="bookMenu"/>
+   <addaction name="showMenu"/>
+  </widget>
+  <action name="newUser">
+   <property name="text">
+    <string>Mới</string>
+   </property>
+  </action>
+  <action name="newBook">
+   <property name="text">
+    <string>Mới</string>
+   </property>
+  </action>
+  <action name="deleteUser">
+   <property name="text">
+    <string>Xoá</string>
+   </property>
+  </action>
+  <action name="deleteBook">
+   <property name="text">
+    <string>Xoá</string>
+   </property>
+  </action>
+  <action name="show100">
+   <property name="text">
+    <string>100%</string>
+   </property>
+  </action>
+  <action name="show200">
+   <property name="text">
+    <string>200%</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

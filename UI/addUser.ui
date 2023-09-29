@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>addUser</class>
+ <widget class="QMainWindow" name="addUser">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>408</width>
+    <height>145</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Thêm khách hàng</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>391</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="1" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Họ và Tên:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="userName">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="placeholderText">
+          <string>Họ và Tên</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="2" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Ngày sinh: </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <item>
+          <widget class="QComboBox" name="birth_day">
+           <item>
+            <property name="text">
+             <string>1</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>2</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>3</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>4</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>5</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>6</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>7</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>8</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>9</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>10</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>11</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>12</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>13</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>14</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>15</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>16</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>17</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>18</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>19</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>20</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>21</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>22</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>23</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>24</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>25</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>26</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>27</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>28</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>29</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>30</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>31</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="birth_month">
+           <item>
+            <property name="text">
+             <string>1</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>2</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>3</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>4</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>5</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>6</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>7</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>8</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>9</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>10</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>11</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>12</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="birth_year">
+           <property name="placeholderText">
+            <string>Năm sinh</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QLabel" name="label_3">
+             <property name="text">
+              <string>Id: </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="userId">
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="placeholderText">
+              <string>XXXXX</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string>Giới tính</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="userSex">
+           <item>
+            <property name="text">
+             <string>Nam</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Nữ</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item row="3" column="0">
+      <widget class="QPushButton" name="b_add">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Thêm</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>408</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
